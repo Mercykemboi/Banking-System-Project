@@ -1,4 +1,7 @@
+#it displays the menu either deposit, withraw
+# python built in testing framework unittest
 import unittest
+# importing my dispay menu function
 from menu.menu import display_menu
 
 class TestMenu(unittest.TestCase):
