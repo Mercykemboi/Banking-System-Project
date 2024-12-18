@@ -1,4 +1,4 @@
-from menu.menu_option import diplay_menu
+from menu.menu import display_menu
 from features.balance_inquiry import check_balance
 from features.deposit import deposit_money
 from features.withdraw import withdraw_money

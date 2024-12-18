@@ -1,4 +1,4 @@
-def diplay_menu():
+def display_menu():
     print("\n--- Simple Banking System ---")
     print("1. Check Balance")
     print("2. Deposit Money")
