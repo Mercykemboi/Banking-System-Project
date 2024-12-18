@@ -1,8 +1,8 @@
 def input_validation(inputChoice):
     try:
-        #type casting input choice to integer
+        # type casting input choice to integer
         inputChoice = int(inputChoice)
-        #check if the input is between 1 and 4
+        # check if the input is between 1 and 4
         if 1 <= inputChoice <= 4:
             return inputChoice
         else:

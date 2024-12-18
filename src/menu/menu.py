@@ -1,4 +1,4 @@
-# this function allows diplay of the menus
+# This function allows display of the menus
 def display_menu():
     print("\n-----Basic Banking System-----")
     print("1. Check Balance")

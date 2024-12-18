@@ -1,8 +1,9 @@
-#it displays the menu either deposit, withraw
+# it displays the menu either deposit, withraw
 # python built in testing framework unittest
 import unittest
 # importing my dispay menu function
 from menu.menu import display_menu
+
 
 class TestMenu(unittest.TestCase):
     def test_display_menu(self):
@@ -13,6 +14,6 @@ class TestMenu(unittest.TestCase):
         except Exception as e:
             self.fail(f"display_menu() raised an exception: {e}")
 
+
 if __name__ == "__main__":
     unittest.main()
-# 
