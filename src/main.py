@@ -1,4 +1,4 @@
-from menu.menu_option import diplay_menu
+from menu.menu import display_menu
 from features.balance_inquiry import check_balance
 from features.deposit import deposit_money
 from features.withdraw import withdraw_money
@@ -9,7 +9,7 @@ def main():
     while True:
         display_menu()
         choice = input("Choose an option (1-4): ")
-        choice = validate_menu_choice(choice)
+        choice = input_validation(choice)
         if choice is None:
             continue
 
