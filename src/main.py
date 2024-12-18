@@ -8,7 +8,7 @@ from accounts.account import get_balance, set_balance
 def main():
     while True:
         display_menu()
-        choice = input("Choose an option (1-4): ")
+        choice = input("Choose an option between (1-4): ")
         choice = input_validation(choice)
         if choice is None:
             continue
@@ -24,7 +24,7 @@ def main():
             account_balance = withdraw_money(account_balance)
             set_balance(account_balance)
         elif choice == 4:
-            print("Thank you for using the banking system. Goodbye!")
+            print("Thank you for choosing our system. Goodbye!")
             break
 
 if __name__ == "__main__":
