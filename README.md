@@ -38,19 +38,20 @@ To run the unit tests and verify the functionality, use the following command:
 python -m unittest discover tests/
 
 ## Usage Instructions
-After running the program, you will be presented with a menu offering options such as:
+1 After running the program, you will be presented with a menu offering options such as:
 
 1. Check Balance
 2. Deposit Money
 3. Withdraw Money
 4. Exit
-1 You can enter a number corresponding to your desired action. For example, to check your balance, enter 1.
 
-2 If you choose to deposit money, you will be prompted to enter an amount to deposit. The amount must be positive.
+2 You can enter a number corresponding to your desired action. For example, to check your balance, enter 1.
 
-3 If you choose to withdraw money, you will be prompted to enter an amount to withdraw. If the withdrawal exceeds your balance, an error message will be displayed.
+3 If you choose to deposit money, you will be prompted to enter an amount to deposit. The amount must be positive.
 
-4 You can exit the system by choosing option 4.
+4 If you choose to withdraw money, you will be prompted to enter an amount to withdraw. If the withdrawal exceeds your balance, an error message will be displayed.
+
+5 You can exit the system by choosing option 4.
 
 ## Collaborators
 Mercy Kemboi: Developer and project creator.
