@@ -6,9 +6,9 @@ def withdraw_money(account_balance):
             #if amount passed is less than account balance if less withdraw else isufficient balance to be displayed
             if amount <= account_balance:
                 account_balance -= amount
-                print(f"${amount:.2f} has been withdrawn successfully.")
+                print(f"Ksh {amount:,.2f} has been withdrawn successfully.")
             else:
-                print("Insufficient balance! Withdrawal amount exceeds your account balance.")
+                print(f"Insufficient balance! Withdrawal amount exceeds your account balance.ksh {account_balance:,.2f}" )
         else:
             print("Withdrawal amount must be positive.")
     except ValueError:
