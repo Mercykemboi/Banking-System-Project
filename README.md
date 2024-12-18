@@ -31,7 +31,7 @@ You can install them using pip.
 
 ### 3. Running the Program
 To run the banking system, simply execute the main.py file:
-by using the following command in terminal -> python main.py
+by using the following command in terminal by cd in src folder-> python main.py
 
 ### 4. Running Tests
 To run the unit tests and verify the functionality, use the following command:
