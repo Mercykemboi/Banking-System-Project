@@ -12,7 +12,7 @@ def main():
         choice = input_validation(choice)
         if choice is None:
             continue
-
+       
         account_balance = get_balance()
 
         if choice == 1:
