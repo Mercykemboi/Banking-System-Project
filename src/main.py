@@ -9,7 +9,7 @@ def main():
     while True:
         display_menu()
         choice = input("Choose an option (1-4): ")
-        choice = validate_menu_choice(choice)
+        choice = input_validation(choice)
         if choice is None:
             continue
 
