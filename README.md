@@ -4,10 +4,10 @@
 This is a banking system built using Python. The project allows a user to interact with their account through a set of operations such as checking balance, depositing money, withdrawing money, and exiting the system. It is designed to simulate a basic banking experience, using a command-line interface and basic Python functionalities.
 
 ## Features Implemented
- 1 **Check Balance**: Allows the user to check their current account balance.
- 2 **Deposit Money**: Allows the user to deposit money into their account. The deposit amount is validated to ensure it is a positive number.
-3 **Withdraw Money**: Allows the user to withdraw money from their account. The withdrawal amount is validated to ensure the user has sufficient balance.
-4 **Exit the System**: Terminates the session and exits the program.
+ - **Check Balance**: Allows the user to check their current account balance.
+ - **Deposit Money**: Allows the user to deposit money into their account. The deposit amount is validated to ensure it is a positive number.
+- **Withdraw Money**: Allows the user to withdraw money from their account. The withdrawal amount is validated to ensure the user has sufficient balance.
+- **Exit the System**: Terminates the session and exits the program.
 
 ## Setup Guide
 
